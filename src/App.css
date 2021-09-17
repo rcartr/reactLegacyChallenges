@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +35,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.catDiv {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
 }
