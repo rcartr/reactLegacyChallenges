@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Button } from 'reactstrap';
 
 const DogIndex = () => {
     let [dog, setDog] = useState('');
@@ -19,7 +20,7 @@ const DogIndex = () => {
     return (
         <div className="myDiv">
             <center>
-            <button onClick={goodBoy}>Who's a Good Boy?</button>
+            <Button id="submish" onClick={goodBoy}>Who's a Good Boy?</Button>
             <br />
             <img src={dog} alt="good boy" />
             </center>

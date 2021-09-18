@@ -28,9 +28,16 @@
   margin-bottom: 20px;
   padding: 15px;
 }
-
+#submish {
+  margin: 10px;
+}
 img {
   max-width: 1000px;
   max-height: auto;
   padding: 10px;
+}
+
+#todoDone {
+  font-size: small;
+  margin-left: 20px;
 }
